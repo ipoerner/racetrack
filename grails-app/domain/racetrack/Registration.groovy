@@ -11,6 +11,8 @@ class Registration {
     String email
     Date dateCreated //Note: this is a special name
 
+    static belongsTo = [race:Race]
+
     static constraints = {
     }
 }
