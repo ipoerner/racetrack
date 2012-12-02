@@ -18,4 +18,8 @@ class Race {
     BigDecimal distance
     BigDecimal cost
     Integer maxRunners = 100000
+
+    BigDecimal inMiles(){
+        return distance * 0.6214
+    }
 }
