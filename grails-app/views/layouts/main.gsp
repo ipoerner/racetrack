@@ -20,7 +20,7 @@
 	<body>
 		<g:render template="/layouts/header" />
 		<g:layoutBody/>
-		<div class="footer" role="contentinfo"></div>
+		<g:render template="/layouts/footer" />
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 		<g:javascript library="application"/>
 		<r:layoutResources />
